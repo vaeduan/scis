@@ -46,7 +46,7 @@
                     </li>
 
                     <li class="layui-nav-item">
-                        <a href="javascript:;"><i class="fa fa-user"></i>我的项目</a>
+                        <a href="javascript:;"><i class="fa fa-file-text"></i>我的项目</a>
                         <dl class="layui-nav-child">
                             <dd><a href="javascript:;" data-url="${ctx!}/expert/index" data-id="1">我的项目</a></dd>
                             <dd><a href="javascript:;" data-url="${ctx!}/expert/examine" data-id="2">项目审核</a></dd>
@@ -55,7 +55,21 @@
                     </li>
 
                     <li class="layui-nav-item">
-                        <a href="javascript:;"><i class="fa fa-user"></i>我的消息</a>
+                        <a href="javascript:;"><i class="fa fa-user"></i>教师管理</a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" data-url="${ctx!}/student/teacher" data-id="5">教师信息</a></dd>
+                        </dl>
+                    </li>
+
+                    <li class="layui-nav-item">
+                        <a href="javascript:;"><i class="fa fa-user"></i>学生管理</a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" data-url="${ctx!}/teacher/student" data-id="6">学生信息</a></dd>
+                        </dl>
+                    </li>
+
+                    <li class="layui-nav-item">
+                        <a href="javascript:;"><i class="fa fa-comment"></i>我的消息</a>
                         <dl class="layui-nav-child">
                             <dd><a href="javascript:;" data-url="${ctx!}/expert/notice" data-id="4">我的消息</a></dd>
                         </dl>
